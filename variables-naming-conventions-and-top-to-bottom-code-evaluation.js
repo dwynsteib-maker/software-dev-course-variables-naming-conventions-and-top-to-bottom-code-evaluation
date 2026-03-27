@@ -24,9 +24,10 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let customerName = "Alice";
+let itemQuantity = 5;
+let itemPrice = 20;
+let pricePeritem = customerName + " bought " + itemQuantity + " items for $" + itemPrice + ".";
 
-console.log(d);
+console.log(pricePeritem);
+
